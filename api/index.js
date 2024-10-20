@@ -102,6 +102,7 @@ app.post("/api/teachers/:id/downvote", async (req, res) => {
   }
 });
 
+
 // Server setup
 const PORT = process.env.PORT || 3001;
 app.listen(PORT, async()=>{
